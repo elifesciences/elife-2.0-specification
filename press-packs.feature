@@ -4,9 +4,10 @@ Feature: Press packs
   I want...
 
   Rules:
-  - All content items with the MSA are shown
-  - Items are loaded in batches of 6
-  - Items are shown most recent first
+  - Press packs are loaded in batches of 6
+  - Press packs are shown most recent first
+  - Press packs are about 1 or more articles
+  - Press packs MSAs match the MSAs of the articles that they cover
 
   Background:
     Given there are 20 press packs
