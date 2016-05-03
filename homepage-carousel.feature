@@ -13,7 +13,7 @@ Feature: Homepage carousel
     And there is a hero item linking to the 'Tropical disease' collection
     When I go to the homepage
     Then I should see the 'Tropical disease' hero item in the carousel
-    And I should see teh title and image from the 'Tropical disease' collection used in the 'Tropical disease' hero item
+    And I should see the title and image from the 'Tropical disease' collection used in the 'Tropical disease' hero item
 
   Scenario: Hero items can have a title and image different from the content they link to
     Given there is a collection called 'Tropical disease'
