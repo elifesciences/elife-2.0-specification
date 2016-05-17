@@ -8,7 +8,7 @@ Feature: Podcasts page highlighted content
   - A highlighted chapter has a title and image, which can be different from the chapter that it links to
   - Clicking on a highlighted chapter will start the audio player on the podcast episode page at that chapter (but not start playing it)
 
-  Scenario: List shows latest podcast
+  Scenario: List shows highlighted podcast chapters
     When I go the Podcasts page
     Then I should see the 3 highlighted podcasts chapters in the 'Highlighted podcasts' list
 
